@@ -1,0 +1,36 @@
+/**/generated/
+
+.DS_Store
+
+# Gradle Files #
+################
+.gradle
+.m2
+
+# Build output directies
+/*/target/
+/*/build/
+/*/debian/
+target/
+build/
+debian/
+
+# IntelliJ specific files/directories
+out
+.idea
+*.ipr
+*.iws
+*.iml
+
+# Logs and databases #
+######################
+*.log
+*.log.gz
+logs/
+
+sml-onetime-data-replication/.env
+sml-onetime-data-replication/.idea
+sml-onetime-data-replication/sml-onetime-data-replication.iml
+sml-onetime-data-replication/__pycache__/
+
+/*/deployment/docker/*/lib/
